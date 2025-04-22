@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+.flex-container{
+    height: 100vh;/*viewport height*/
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+ text-align: center;
+}
+
+.container h2{
+    text-transform: capitalize;/*büyük harf yapma*/
+    font-family: "roboto", sans-serif;
+    color: #fff;
+    background-color: #222;
+    padding: 1rem;/*16px*/
+    border-radius: 0.25rem;/*4px*/
+    margin-bottom: 2.5rem;/*40px*/
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.color{
+    text-transform: uppercase;
+}
+
+.btn{
+    text-transform: uppercase;
+    color: #222;
+    padding: 0.73rem 1.25rem;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: transparent;/*saydam arka plan rengi*/
+    border: 2px solid #222;
+    border-radius: 0.1rem;
+    letter-spacing: 0.1rem;/*karakterler arası boşluk*/
+    transition: ease-out 0.5s;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #222;
+}
